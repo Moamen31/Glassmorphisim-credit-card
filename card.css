@@ -27,6 +27,12 @@ body{
     padding: 35px 20px 0;
 }
 
+@media (max-width:540px) {
+    .visa-card {
+        width: 95%;
+        height: 260px;
+    }
+}
 
 .visa-title{
     text-align: right;
@@ -49,6 +55,13 @@ body{
     text-align: center;
     letter-spacing: 2.3px;
 }
+
+@media (max-width:540px) {
+    .visa-info h2 {
+        font-size: 23px;
+    }
+}
+
 .visa-info .bottom-info{
     display: flex;
     justify-content: space-between;
@@ -66,4 +79,11 @@ body{
     font-size: 23px;
     color: #e0e0e0;
     font-weight: 500;
+}
+
+@media (max-width:540px) {
+    .visa-info .bottom-info .cardholder p,
+    .visa-info .bottom-info .expires p {
+        font-size: 18px;
+    }
 }
